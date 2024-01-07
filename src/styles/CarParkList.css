@@ -1,0 +1,37 @@
+/* CarparkList.css */
+.carpark-list {
+  list-style-type: none;
+  padding: 0;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.carpark-item {
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.carpark-header {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.carpark-info {
+  list-style-type: none;
+  padding: 0;
+}
+
+.carpark-info-item {
+  background-color: #fff;
+  border: 1px solid #eee;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 3px;
+}
+
+.carpark-info-item:last-child {
+  margin-bottom: 0;
+}
